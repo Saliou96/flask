@@ -43,7 +43,6 @@ def delete(id):
         return redirect('/')
     except:
         return 'There was a problem deleting that task'
-    
 
 @app.route('/update/<int:id>', methods=['GET', 'POST'])
 def update(id):
