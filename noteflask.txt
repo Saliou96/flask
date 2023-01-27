@@ -1,0 +1,7 @@
+mkdir myproject
+cd myproject
+py.exe -m venv venv
+
+venv\Scripts\activate
+
+flask --app server run
